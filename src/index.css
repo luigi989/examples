@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  }
+html, body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+  @apply: .light;
+}
+
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+  width: 300px;
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all 500ms ease;
+  width: 300px;
+}
+
+.menu-secondary-enter {
+  transform: translateX(50%);
+}
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all 500ms ease;
+}
+.menu-secondary-exit {
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all 500ms ease;
+}
