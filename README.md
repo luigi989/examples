@@ -14,13 +14,13 @@ Node and npm is needed to run react
 
 ### How to install
 
-2. Open a terminal and run
+1. Open a terminal and run
 
 ```
 npm install
 ```
 
-3. Start the project
+2. Start the project
 
 ```
 npm start
