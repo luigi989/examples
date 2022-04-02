@@ -1,4 +1,6 @@
-## :books: [Examples](examples/)
+## :books: Examples
+
+![Header Image](assets/Examples.png)
 
 This repo contains multiple websites built in HTML and CSS. The focus is to display different effects and designs to use in other projects.
 
